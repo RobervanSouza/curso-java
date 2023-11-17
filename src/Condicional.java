@@ -6,7 +6,7 @@ public class Condicional {
         int ano = 2021;
         boolean incluidoNoPlano = false;
         double notaDoFilme = 8.1;
-        String tipoPlano = "plu";
+        String tipoPlano = "plus";
 
         if (ano >= 2022) {
             System.out.println("lançamento ok");
@@ -16,9 +16,8 @@ public class Condicional {
 
         }
 
-        if (incluidoNoPlano == true || tipoPlano == "plus"){
-            System.out.println("filme liberado !!!");
-        } else {
+        if (incluidoNoPlano || tipoPlano.equals("plus")) System.out.println("filme liberado !!!");
+        else {
             System.out.println("filme não liberado !!!");
 
         }
