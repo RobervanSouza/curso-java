@@ -6,6 +6,7 @@ public class Condicional {
         int ano = 2021;
         boolean incluidoNoPlano = false;
         double notaDoFilme = 8.1;
+        String tipoPlano = "plus";
 
         if (ano >= 2022) {
             System.out.println("lançamento ok");
