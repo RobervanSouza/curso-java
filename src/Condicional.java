@@ -16,9 +16,14 @@ public class Condicional {
 
         }
 
-        if (incluidoNoPlano) {
+        if (incluidoNoPlano == true || tipoPlano == "plus"){
+            System.out.println("filme liberado !!!");
+        } else {
+            System.out.println("filme não liberado !!!");
 
         }
+
+
 
     }
 }
