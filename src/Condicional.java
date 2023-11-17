@@ -16,7 +16,7 @@ public class Condicional {
 
         }
 
-        if (tipoPlano == null) {
+        if (incluidoNoPlano) {
 
         }
 
