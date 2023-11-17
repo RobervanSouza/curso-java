@@ -16,7 +16,9 @@ public class Condicional {
 
         }
 
+        if (tipoPlano == null) {
 
+        }
 
     }
 }
