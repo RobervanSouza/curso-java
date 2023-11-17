@@ -3,12 +3,16 @@ public class Condicional {
         System.out.println(" robervan esta aqui!!!");
         System.out.println("filme: Era do gelo");
 
-        int ano = 2023;
+        int ano = 2021;
         boolean incluidoNoPlano = false;
         double notaDoFilme = 8.1;
 
         if (ano >= 2022) {
             System.out.println("lançamento ok");
+        }
+        else {
+            System.out.println("lançamento menor ");
+
         }
 
 
